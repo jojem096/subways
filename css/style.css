@@ -390,6 +390,7 @@
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
+    width: 615px;
 }
 
 #wrap > section #menu-tab > .content > ul > li {
@@ -409,6 +410,10 @@
 
 #wrap > section #menu-tab > .content > ul > li:last-child {
     color: #000000;
+}
+
+#wrap > section #menu-tab > .content > ul > li:last-child.active {
+    color: #e85a1c;
 }
 
 #wrap > section #menu-tab > .content > ul > li::after {
