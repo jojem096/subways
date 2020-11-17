@@ -100,7 +100,7 @@ $(document).ready(function(){
             // $('.' + menuName)       //ES5
             // $(`.${menuName}` )      //ES6
             $(`.${menuName}`).stop().css({ display: "block" }).animate({
-              opacity: "1",
+              opacity: "1" ,
             });
           }
         }
